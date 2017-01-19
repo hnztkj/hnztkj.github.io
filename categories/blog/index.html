@@ -39,6 +39,7 @@
     
       <li><a href="/about">关于</a></li>
     
+	<li> <a href="/atom.xml">RSS</a> </li>
   </ul>
   <div class="clearfix"></div>
 </nav>
@@ -66,17 +67,6 @@
   </div>
 </div></div>
     <aside id="sidebar" class="alignright">
-  <div class="widget tag">
-<h3 class="title">Introduction</h3>
-<ul class="entry">
-<li>chinese name: hnztkj</li>
-<li>english name: hnztkj</li>
-<li>work: XXXX</li>
-<li>QQ  : XXXXXX</li>
-<li>email: XXXXXX</li>
-</ul>
-</div>
-
   <SCRIPT language=javascript>
 function search(formname) {
     formname.method = "get";
@@ -91,6 +81,16 @@ function search(formname) {
         <input type="search" name="word" results="0" placeholder="百度站内搜索" onblur="this.value=''">
         <!-- <input type="submit" value="搜索"> -->
     </form>
+</div>
+
+  <div class="widget tag">
+<h3 class="title">介绍</h3>
+<ul class="entry">
+<li>名称: hnztkj</li>
+<li>所在地: XXXX</li>
+<li>QQ  : XXXXXX</li>
+<li>邮箱: XXXXXX</li>
+</ul>
 </div>
 
   
@@ -119,6 +119,28 @@ function search(formname) {
 <li><a href="http://www.cnblogs.com/" title="博客园">博客园</a></li>
 <li><a href="http://www.baidu.com/" title="百度一下">百度</a></li>
 </ul>
+</div>
+
+  <div class="widget tag">
+<h3 class="title">最新评论</h3>
+<div class="entry">
+<!-- 多说最新评论 start -->
+	<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
+<!-- 多说最新评论 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"hnztkj"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+</div>
 </div>
 </aside>
     <div class="clearfix"></div>
@@ -156,5 +178,11 @@ var duoshuoQuery = {short_name:duoshuo_shortname};
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
 </script>
+
+<div id="totop" style="position:fixed;bottom:150px;right:20px;cursor: pointer;">
+<a title="返回顶部"><img src="/scrollup.png"/></a>
+</div>
+<script src="/js/totop.js"></script>
+
 </body>
 </html>
