@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>categories | hnztkj</title>
-  <meta name="author" content="yoga Lee">
+  <title>categories | hnztkj blog</title>
+  <meta name="author" content="Lee">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta property="og:title" content="categories"/>
-  <meta property="og:site_name" content="hnztkj"/>
+  <meta property="og:site_name" content="hnztkj blog"/>
 
   
     <meta property="og:image" content="undefined"/>
   
 
   <link href="/favicon.png" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="hnztkj" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="hnztkj blog" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
@@ -27,7 +27,7 @@
 
 <body>
   <header id="header" class="inner"><div class="alignleft">
-  <h1><a href="/">hnztkj</a></h1>
+  <h1><a href="/">hnztkj blog</a></h1>
   <h2><a href="/"></a></h2>
 </div>
 <nav id="main-nav" class="alignright">
@@ -66,36 +66,42 @@
         
         
         <div class="bdsharebuttonbox">
-    <a href="#" class="bds_more" data-cmd="more"></a>
-    <a href="#" class="bds_qzone" data-cmd="qzone"></a>
-    <a href="#" class="bds_tsina" data-cmd="tsina"></a>
-    <a href="#" class="bds_tqq" data-cmd="tqq"></a>
-    <a href="#" class="bds_renren" data-cmd="renren"></a>
-    <a href="#" class="bds_weixin" data-cmd="weixin"></a>
+	<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+	<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+	<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+	<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="bds_more" data-cmd="more"></a>
+	<a href="#" class="bds_count" data-cmd="count"></a>
 </div>
-
 <script>
-    window._bd_share_config = {
-        "common": {
-            "bdSnsKey": {},
-            "bdText": "",
-            "bdMini": "2",
-            "bdPic": "",
-            "bdStyle": "0",
-            "bdSize": "16"
-        },
-        "share": {},
-        "image": {
-            "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"],
-            "viewText": "分享到",
-            "viewSize": "16"
-        },
-        "selectShare": {
-            "bdContainerClass": null,
-            "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]
-        }
-    };
-    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+window._bd_share_config=
+{
+	"common":{
+		"bdSnsKey":{},
+		"bdText":"",
+		"bdMini":"2",
+		"bdMiniList":false,
+		"bdPic":"",
+		"bdStyle":"0",
+		"bdSize":"24"
+	},
+	"share":{},
+	"image":{
+		"viewList":["qzone","tsina","tqq","renren","weixin","fbook","twi"],
+		"viewText":"分享到：",
+		"viewSize":"24"
+	},
+	"selectShare":{
+		"bdContainerClass":null,
+		"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin","fbook","twi"]
+	}
+};
+with(document)0[
+	(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)
+];
 </script>
       
       <div class="clearfix"></div>
@@ -111,7 +117,16 @@
 
 </div></div>
     <aside id="sidebar" class="alignright">
-  
+  <div class="widget tag">
+<h3 class="title">Introduction</h3>
+<ul class="entry">
+<li>chinese name: hnztkj</li>
+<li>english name: hnztkj</li>
+<li>work: XXXX</li>
+<li>QQ  : XXXXXX</li>
+<li>email: XXXXXX</li>
+</ul>
+</div>
 
   <SCRIPT language=javascript>
 function search(formname) {
@@ -130,8 +145,24 @@ function search(formname) {
 </div>
 
   
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/blog/">blog</a><small>1</small></li>
+  
+  </ul>
+</div>
+
 
   
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/文章/" style="font-size: 10px;">文章</a>
+  </div>
+</div>
+
 
   <div class="widget tag">
 <h3 class="title">友情链接</h3>
@@ -145,7 +176,7 @@ function search(formname) {
   </div>
   <footer id="footer" class="inner"><div class="alignleft">
   
-  &copy; 2017 yoga Lee
+  &copy; 2017 Lee
   
 </div>
 <div class="clearfix"></div></footer>
