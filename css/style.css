@@ -10,8 +10,9 @@
   padding: 0;
 }
 body {
+  background-image: url("/imgs/noise.png");
   background: #eee;
-  color: #444;
+  color: #555;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
   text-shadow: 0 0 1px transparent;
@@ -171,6 +172,58 @@ article .post-content {
     padding-left: 20px;
   }
 }
+article .post-content:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+  box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+article .post-content:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  height: 20%;
+  -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 15px 10px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+  box-shadow: 0 15px 15px rgba(0,0,0,0.7);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
 article .gallery {
   overflow: hidden;
   position: relative;
@@ -267,7 +320,7 @@ article header .title {
   font-weight: normal;
 }
 article header .title a {
-  color: #444;
+  color: #555;
 }
 article header .title a:hover {
   color: #258fb8;
@@ -300,7 +353,7 @@ article .entry table {
 }
 article .entry table th {
   white-space: nowrap;
-  color: #444;
+  color: #555;
   font-weight: 600;
   background: #eee;
 }
@@ -621,7 +674,7 @@ article footer .addthis iframe {
   color: #999;
 }
 #sidebar .search input:focus {
-  color: #444;
+  color: #555;
 }
 #sidebar .tag small {
   margin-left: 15px;
