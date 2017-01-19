@@ -12,7 +12,7 @@
 body {
   background-image: url("/imgs/noise.png");
   background: #eee;
-  color: #555;
+  color: #444;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
   text-shadow: 0 0 1px transparent;
@@ -320,7 +320,7 @@ article header .title {
   font-weight: normal;
 }
 article header .title a {
-  color: #555;
+  color: #444;
 }
 article header .title a:hover {
   color: #258fb8;
@@ -353,7 +353,7 @@ article .entry table {
 }
 article .entry table th {
   white-space: nowrap;
-  color: #555;
+  color: #444;
   font-weight: 600;
   background: #eee;
 }
@@ -674,7 +674,7 @@ article footer .addthis iframe {
   color: #999;
 }
 #sidebar .search input:focus {
-  color: #555;
+  color: #444;
 }
 #sidebar .tag small {
   margin-left: 15px;
